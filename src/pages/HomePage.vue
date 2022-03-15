@@ -2,6 +2,8 @@
     <div>
         <BannerLarge/>
     </div>
+
+  <img src="./maquette.png">
 </template>
 
 <script>
@@ -15,8 +17,12 @@ export default {
     }
 }
 
+
 </script>
 
 <style lang="scss">
-
+img {
+  max-width: 100%;
+  height: auto;
+}
 </style>
